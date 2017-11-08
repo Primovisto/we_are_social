@@ -1,0 +1,110 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$RTZ03HMLE1dO$tHgdRLkU2MV0jRHF8kZRa46aBbk8N7Q+dBIa1oXt574=",
+        "last_login": "2017-11-07T16:38:17.839Z",
+        "is_superuser": false,
+        "username": "ed@velabri.co",
+        "first_name": "",
+        "last_name": "",
+        "email": "ed@velabri.co",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-06T12:45:32.350Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$sUyZatkyrWFP$4ttrXFutwyyrHwJ3ipooCK0JUdro56LCYF0mnstrkHI=",
+        "last_login": "2017-11-06T16:22:46.609Z",
+        "is_superuser": false,
+        "username": "edward@primovisto.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "edward@primovisto.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-06T16:22:43.781Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$oDfT82OpCqVt$43vXksPcSD6r77FE9oaIih3K5kSyXU2Jso6+QoRpT94=",
+        "last_login": "2017-11-06T16:39:25.271Z",
+        "is_superuser": false,
+        "username": "edward.stack@mail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "edward.stack@mail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-06T16:39:21.622Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$dNjY4uFlZi1w$f96pA7PQCjkFFZ80811huYaXceutoBOQK9DmhUlBFCE=",
+        "last_login": "2017-11-07T15:20:40.685Z",
+        "is_superuser": false,
+        "username": "jamespstack@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "jamespstack@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-07T15:20:37.515Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$HcboNxYfdD63$SNEj0036jUH1aY1uPoBzaqN+ZJPfsqioe+B0E/LYrcs=",
+        "last_login": "2017-11-07T15:36:09.752Z",
+        "is_superuser": false,
+        "username": "james@golfites.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "james@golfites.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-07T15:36:05.983Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$H5nQEajLWTbp$O2TTao6llApo4GGSfeE3CrqIIOljKHM6jRhwjV2y6DA=",
+        "last_login": "2017-11-07T18:13:49.636Z",
+        "is_superuser": true,
+        "username": "mariestack@hotmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "mariestack@hotmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-11-07T18:13:07.543Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

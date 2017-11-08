@@ -1,0 +1,48 @@
+[
+{
+    "model": "threads.subject",
+    "pk": 1,
+    "fields": {
+        "name": "Eagles are 8-1",
+        "description": "<p>Can the Eagles win the superbowl?</p>"
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 2,
+    "fields": {
+        "name": "Who will win the superbowl?",
+        "description": "<p>Eagles?</p>"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 1,
+    "fields": {
+        "name": "Eagles",
+        "user": 1,
+        "subject": 1,
+        "created_at": "2017-11-07T22:04:45Z"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 2,
+    "fields": {
+        "name": "Are the Eagles the best teamin the NFL",
+        "user": 6,
+        "subject": 2,
+        "created_at": "2017-11-07T22:38:16.840Z"
+    }
+},
+{
+    "model": "threads.post",
+    "pk": 1,
+    "fields": {
+        "thread": 2,
+        "comment": "",
+        "user": 6,
+        "created_at": "2017-11-07T22:38:16.841Z"
+    }
+}
+]

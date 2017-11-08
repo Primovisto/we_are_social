@@ -1,0 +1,15 @@
+arrow
+beautifulsoup4
+django-disqus
+Django
+django-emoticons
+djangorestframework
+django-forms-bootstrap
+django-tinymce
+Pillow
+python-dateutil
+six
+wheel
+django-paypal
+stripe
+git+https://github.com/Primovisto/reusable-blog-app.git
