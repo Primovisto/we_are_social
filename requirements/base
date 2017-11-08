@@ -11,5 +11,6 @@ python-dateutil
 six
 wheel
 django-paypal
+gunicorn==19.4
 stripe
 git+https://github.com/Primovisto/reusable-blog-app.git
