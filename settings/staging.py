@@ -14,11 +14,11 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_BXMhGZbzUnHrO4wR2Q
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_L2u1PAnN0QLTVcbLRes1qB2W')
 
 # Paypal environment variables
-PAYPAL_NOTIFY_URL = 'http://aeeb4f1d.ngrok.io/a-very-hard-to-guess-url/'
+PAYPAL_NOTIFY_URL = 'https://velabri.herokuapp.com/'
 PAYPAL_RECEIVER_EMAIL = 'edward.stack@mail.com'
 
-SITE_URL = ' https://velabri-social.herokuapp.com/'
-ALLOWED_HOSTS.append(' https://velabri-social.herokuapp.com/')
+SITE_URL = 'https://velabri.herokuapp.com/'
+ALLOWED_HOSTS.append('velabri.herokuapp.com/')
 
 # Log DEBUG information to the console
 LOGGING = {

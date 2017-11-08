@@ -6,7 +6,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: Enter your own SECRET_KEY here
 SECRET_KEY = '<SECRET_KEY>'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['velabri.herokuapp.com/']
+
 SITE_ID = 3
 
 # Application definition
