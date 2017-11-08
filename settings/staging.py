@@ -17,8 +17,8 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_L2u1PAnN0QLTVcbLRes1qB2W')
 PAYPAL_NOTIFY_URL = 'http://aeeb4f1d.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'edward.stack@mail.com'
 
-SITE_URL = 'https://primovisto-social-staging.herokuapp.com/'
-ALLOWED_HOSTS.append('https://primovisto-social-staging.herokuapp.com/')
+SITE_URL = 'https://primovisto-social-staging.txt.herokuapp.com/'
+ALLOWED_HOSTS.append('https://primovisto-social-staging.txt.herokuapp.com/')
 
 # Log DEBUG information to the console
 LOGGING = {
