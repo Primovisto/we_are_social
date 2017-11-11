@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: Enter your own SECRET_KEY here
 SECRET_KEY = '_34saw!bco()q8$4(_6iyik-+nmr+u7jrsfywjq)guc9+j%==c'
 
-ALLOWED_HOSTS = ['eds-app.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['eds-app.herokuapp.com/', '127.0.0.1', 'localhost:8000']
 
 SITE_ID = 3
 INTERNAL_IPS = ('127.0.0.1',)
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
-ROOT_URLCONF = 'auth_demo.urls'
+ROOT_URLCONF = 'we_are_social.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'auth_demo.wsgi.application'
+WSGI_APPLICATION = 'we_are_social.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
