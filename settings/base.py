@@ -4,11 +4,12 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: Enter your own SECRET_KEY here
-SECRET_KEY = '<SECRET_KEY>'
+SECRET_KEY = '_34saw!bco()q8$4(_6iyik-+nmr+u7jrsfywjq)guc9+j%==c'
 
-ALLOWED_HOSTS = ['velabri.herokuapp.com/']
+ALLOWED_HOSTS = ['velabri.herokuapp.com/', '127.0.0.1']
 
 SITE_ID = 3
+INTERNAL_IPS = ('127.0.0.1',)
 
 # Application definition
 INSTALLED_APPS = [
