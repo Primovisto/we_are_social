@@ -1,2 +1,2 @@
-web: gunicorn we_are_social.wsgi:application
+web: gunicorn authenv.wsgi:application
 worker: python worker.py

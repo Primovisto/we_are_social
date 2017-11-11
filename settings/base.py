@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'we_are_social.wsgi.application'
+WSGI_APPLICATION = 'authenv.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
